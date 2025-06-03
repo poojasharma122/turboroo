@@ -1,0 +1,321 @@
+@media screen and (max-width:1199px) {
+
+    html {
+        font-size: 15px;
+    }
+
+    .home_banner {
+        height: 30.625rem;
+    }
+
+}
+
+
+@media (max-width: 991px) {
+    .img_part {
+        height: 26.42rem;
+    }
+
+    .contact_form_content p {
+        font-size: 1rem;
+    }
+
+    .navigation-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        padding: 50px;
+        background-color: black;
+        transform: translateX(-100%);
+        transition: all 0.3s linear;
+        z-index: 100;
+        color: #fff;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .menuToggle .navigation-menu {
+        transform: translateX(0);
+        justify-content: flex-start;
+    }
+
+    .navigation-menu ul {
+        flex-direction: column;
+
+    }
+
+    .menu-toggle-btn {
+        display: block;
+    }
+
+    .menu-close-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: block;
+        text-align: end;
+        z-index: 55;
+        font-size: 21px;
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .slick-prev,
+    .slick-next {
+        top: auto;
+        bottom: -40px;
+        transform: none;
+    }
+
+    .slick-prev {
+        left: 50% !important;
+        margin-left: -40px;
+    }
+
+    .slick-next {
+        right: 50% !important;
+        margin-right: -40px;
+    }
+
+    .slick-dots {
+        bottom: -80px;
+    }
+
+    .home_featured_slider {
+        width: 100%;
+    }
+
+    .home_featured_hotels_sec {
+        padding: 5rem 0 8rem 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: 14px;
+    }
+
+    .text_part {
+        padding: 2rem 1rem;
+    }
+
+    .section_heading {
+        font-size: 2.5rem;
+    }
+
+    .slick-slide {
+        margin: 0;
+    }
+
+    .copy_txt p {
+        text-align: center;
+    }
+
+    .copy_txt p {
+        font-size: 0.9rem;
+    }
+
+    .ssl_certi {
+        justify-content: center;
+    }
+
+    .ssl_certi_inner {
+        width: 7.5rem;
+    }
+
+    .banner_box h1 {
+        font-size: 2.5rem;
+    }
+
+    .home_banner {
+        height: 27.625rem;
+    }
+
+    .p-5 {
+        padding: 1.5rem !important;
+    }
+
+    .contact_card {
+        max-width: 100%;
+    }
+
+    .form_container {
+        margin-top: 2.5rem;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .img_part {
+        height: 20.42rem;
+    }
+
+    .text_part p {
+        font-size: 1.1rem;
+    }
+
+    .section_heading {
+        font-size: 2rem;
+    }
+
+    .subscribe .form-row.justify-content-center {
+        grid-template-columns: 1fr;
+    }
+
+    .be_best {
+        text-align: center;
+    }
+
+    .brand-container a,
+    .footer_logo a {
+        width: 12.75rem;
+    }
+
+    .home_cat_cards {
+        height: 22rem;
+    }
+
+    .py-10 {
+        padding: 4.25rem 0;
+    }
+
+    .menu-toggle-btn {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .about_hotel_categories .bottom_text,
+    .about_hotel_categories .top_text {
+        font-size: 1.1rem;
+    }
+
+    .p-5 {
+        padding: 1rem !important;
+    }
+
+    .contact_wrap {
+        margin-top: -50px;
+    }
+
+    .disclaimer {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .links_footr ul li a {
+        font-size: 1.1rem;
+    }
+
+    .featured_text h3 {
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+
+    .why_us_card_wrap>p {
+        font-size: 1.2rem;
+    }
+
+    .why_us_card_wrap>p.what_we_look {
+        font-size: 1.6rem;
+    }
+
+    .subscribe p {
+        font-size: 1rem;
+    }
+
+    .section_heading {
+        font-size: 1.7rem;
+    }
+
+    .banner_box h1 {
+        font-size: 2rem;
+    }
+
+    .banner_box h3 {
+        font-size: 1.3rem;
+    }
+
+    .home_banner {
+        height: 20.625rem;
+    }
+
+    .home_cat_cards {
+        height: 15rem;
+    }
+
+    .why_us_card_text h5 {
+        font-size: 1.1rem;
+    }
+
+    .pt-7 {
+        padding-top: 2.375rem;
+    }
+
+    .pb-7 {
+        padding-bottom: 2.375rem;
+    }
+
+    .menu-toggle-btn {
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+
+    .fancy_heading_img {
+        max-width: 14.75rem;
+    }
+
+    .disclaimer p {
+        font-size: 1rem;
+    }
+
+    .text_part p {
+        font-size: 1rem;
+    }
+
+    .butn {
+        font-size: 1rem;
+    }
+
+    .featured_img {
+        height: 13.75rem;
+    }
+
+    .about_hotel_categories .bottom_text,
+    .about_hotel_categories .top_text {
+        font-size: 1rem;
+    }
+
+    .banner_box {
+        gap: 0.5rem;
+    }
+
+    #contact input,
+    #contact textarea,
+    #contact select {
+        font-size: 1rem;
+    }
+
+    .footer-pages-content-grp p {
+        font-size: 1rem;
+    }
+
+    .footer-pages-content-grp h3 {
+        font-size: 1.3rem;
+    }
+
+    .footer-pages-wrap {
+        padding: 1.5rem;
+    }
+
+    .py-7 {
+        padding: 3.375rem 0;
+    }
+
+    .py-10 {
+        padding: 3.25rem 0;
+    }
+}
