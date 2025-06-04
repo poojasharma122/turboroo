@@ -152,6 +152,9 @@ img {
 .bg_center {
     background-position: center;
 }
+.bg_left{
+    background-position: left;
+}
 
 .bg_cover {
     background-size: cover;
@@ -223,6 +226,9 @@ span.theme {
 
 .text_white {
     color: #fff;
+}
+.text_theme{
+color: #ffc571;
 }
 
 .text_dark {
@@ -1200,4 +1206,88 @@ section.home_why_us_sec {
     color: #484747;
     font-weight: 600;
 }
-/* Reviews Page CSS End */
+/* Reviews Page  CSS End */
+
+
+/* Hotels Full Details Pages CSS Start */
+.hotel_desc_name_link {
+    color: #222222;
+    display: block;
+}
+.hotels_name_img {
+    height: 100%;
+    overflow: hidden;
+}
+.hotels_full_review_section {
+    padding: 6.25rem 0;
+    margin-top: 5rem;
+}
+.hotels_rating_spec_txt h3 {
+    color: #fff;
+}
+.hotels_rating_spec_txt ul li p {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.625rem;
+}
+.hotels_rating_spec_txt ul li {
+    list-style-type: disc;
+    margin-left: 1.875rem;
+}
+.hotel_desc_card ul li {
+    list-style-type: disc;
+    margin-left: 1.25rem;
+}
+.hotels_rating_spec_txt ul li::marker{
+    color: #fff;
+    font-size: 1.1rem;
+}
+.hotel_full_img_outer {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.hotel_full_img {
+    height: 100%;
+    width: 100%;
+}
+.no_padding{
+    padding: 0;
+}
+.no_padding_left{
+    padding-left:0;
+}
+.hotels_name_img>p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #484747;
+}
+.hotel_desc_card {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    height: 100%;
+}
+.hotel_rooms_icon_outer {
+    overflow: hidden;
+    height: 5rem;
+    width: 100%;
+}
+.hotel_rooms_icon {
+    height: 100%;
+    width: 5rem;
+}
+.row.hotel_middle_row {
+    padding: 2rem;
+}
+.hotel_outer_linking_btn {
+    border: 1px solid #ffc571;
+    overflow: hidden;
+}
+.hotel_outer_linking_btn:hover{
+    border-color: #fff;
+}
+.hotel_final_verdict {
+    padding: 1.25rem;
+}
+/* Hotels Full Details Pages CSS End */
