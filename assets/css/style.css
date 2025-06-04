@@ -1174,10 +1174,11 @@ section.home_why_us_sec {
     width: 100%;
 }
 .hotels_review_cards_image_outer {
-    overflow: hidden;
     height: 28.125rem;
     width: 100%;
     border-radius: 20px;
+    position: relative;
+    overflow: hidden;
 
 }
 .rating_text_box {
@@ -1193,6 +1194,7 @@ section.home_why_us_sec {
     position: absolute;
     right: 20px;
     top: 20px;
+    z-index: 99;
 }
 .hotel_review_cards span.rating_txt {
     font-size: 1.1rem;
@@ -1205,6 +1207,13 @@ section.home_why_us_sec {
 .hotels_review_cards_content .hotels_short_txt {
     color: #484747;
     font-weight: 600;
+}
+.hotels_review_cards_image {
+    transition: 0.2s all ease-in-out;
+    border-radius: 1.25rem;
+}
+.hotel_review_cards:hover  .hotels_review_cards_image {
+transform: scale(1.1);
 }
 /* Reviews Page  CSS End */
 
@@ -1268,6 +1277,7 @@ section.home_why_us_sec {
     border-radius: 10px;
     height: 100%;
 }
+
 .hotel_rooms_icon_outer {
     overflow: hidden;
     height: 5rem;
@@ -1289,5 +1299,9 @@ section.home_why_us_sec {
 }
 .hotel_final_verdict {
     padding: 1.25rem;
+}
+.hotel_desc_card ul.inner_ul  li {
+    list-style-type: circle;
+    margin-left: 1.5625rem;
 }
 /* Hotels Full Details Pages CSS End */
