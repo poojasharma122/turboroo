@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Manrope", sans-serif;
+    font-family: "Figtree", sans-serif;
     margin: 0;
     line-height: 1;
 }
@@ -246,7 +246,8 @@ span.theme {
     border: none;
     text-align: center;
     background-color: #ffc571;
-    color: #fff;
+    color: #000;
+    border-radius: 1.875rem;
     font-size: 1.1rem;
     font-weight: 500;
     text-transform: uppercase;
@@ -267,7 +268,7 @@ span.theme {
     border-radius: 50%;
     z-index: -1;
     background-color: #222222;
-    transition: 1s ease;
+    transition: 0.8s ease;
 }
 
 .butn::before {
@@ -288,7 +289,7 @@ span.theme {
 .butn:hover::after,
 .butn:hover::before {
     height: 25.625rem;
-    width: 25.625rem;
+    width: 45.625rem;
 }
 
 /* Button CSS End*/
@@ -624,6 +625,10 @@ span.theme {
 /* Banner Section  CSS End */
 
 /* After Banner  CSS Start */
+.home_after_banner_sec .col-lg-6:first-child {
+    padding: 0;
+}
+
 .img_part {
     height: 100%;
     width: 100%;
@@ -652,7 +657,7 @@ span.theme {
 }
 
 .after_banner_wrap .row {
-    background-color: #f3eee7;
+    background-color: #ffff;
     border-left: 5px solid #ffc571;
     border-right: 5px solid #ffc571;
 }
@@ -942,3 +947,215 @@ section.home_why_us_sec {
 }
 
 /* Home Tips Cards CSS End */
+
+/* Home Your Journey CSS Start */
+.home_journey_start_sec {
+    background-color: rgba(0 0 0/50%);
+    background-blend-mode: multiply;
+}
+.home_journey_start_wrap p {
+    max-width: 1100px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+.home_journey_start_wrap.p-5 {
+    background-color: transparent;
+    backdrop-filter: blur(7px);
+    border: 1px solid #fff;
+    border-radius: 1.25rem;
+}
+.home_journey_start_btns.mt-5 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+/* Home Your Journey CSS End */
+
+
+/* Footer CSS Start */
+.footer {
+    color: #fff;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: #ffc571 0px 3px 15px;
+}
+
+.footer_logo {
+    background-image: url(../images/logo.svg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 4.75rem;
+    width: 18.75rem;
+}
+
+.footer .footer-logos {
+    margin-bottom: 2.8125rem;
+}
+
+.footer .footer-logo {
+    padding-bottom: 0.9375rem;
+}
+
+.footer .footer-logo img {
+    width: 11.25rem;
+}
+
+.footer .footer-links {
+    padding-top: 1rem;
+    border-bottom: 1px solid #ffc571;
+}
+
+.footer .footer-links a {
+    padding: 0 7px;
+    font-size: 1.1rem;
+    color: #fff;
+    display: inline-block;
+    transition: 0.3s all ease-in-out;
+}
+.footer_logo_box {
+    border-bottom: 1px solid #ffc571;
+}
+
+
+.footer .footer-links ul li {
+    padding: 0 15px 5px 0;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.footer .footer-links ul li:last-child {
+    padding-right: 0;
+}
+
+.logo-bottom a {
+    color: #fff;
+    font-size: 1.875rem;
+}
+
+.footer-links a:hover {
+    color: #ffc571;
+}
+
+.footer a i {
+    font-size: 0.75rem;
+    padding-right: 0.625rem;
+}
+
+.footer .copyright .logo {
+    width: 6.875rem;
+}
+
+.footer .copyright p {
+    padding-bottom: 1.25rem;
+}
+
+.footer .copyright p:last-child {
+    padding-bottom: 0;
+}
+
+.copyright-text p {
+    color: #fff;
+}
+
+.after-footer {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0.9375rem 0 0.9375rem;
+    color: #000;
+    font-size: 0.9375rem;
+}
+
+.after-footer p {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 0.9375rem;
+}
+
+.after-footer .before-footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ssl-certi-inner {
+    height: 3rem;
+    width: 15.75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.after-footer .col-12 {
+    align-items: center;
+    color: #000;
+    font-size: 0.9375rem;
+}
+
+.after-footer .col-12 a {
+    color: #000
+}
+
+.after-footer .col-12 a:hover {
+    color: #afbff9;
+}
+.follow_heading {
+    font-size: 1.6rem;
+}
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links a {
+    background-color: #ffc571;
+    color: #fff;
+    margin: 0 5px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s all ease-in-out;
+    padding: 0.5625rem;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+}
+.social-links a svg {
+    fill: #000;
+    height: 100%;
+    width: 100%;
+}
+.social-links a i {
+    font-size: 1.25rem;
+    padding-right: 0.4375rem;
+    padding-left: 0.4375rem;
+}
+
+.disclaimer_txt {
+    border-top: 1px solid #FF5722;
+    border-bottom: 1px solid #FF5722;
+}
+
+.disclaimer_txt p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.disclaimer_txt h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #FF5722;
+}
+
+/* Footer CSS End */
