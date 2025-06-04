@@ -165,11 +165,11 @@ img {
     background-repeat: no-repeat;
 }
 
-.w-100 {
+.w_100 {
     width: 100%;
 }
 
-.h-100 {
+.h_100 {
     height: 100%;
 }
 
@@ -1159,3 +1159,45 @@ section.home_why_us_sec {
 }
 
 /* Footer CSS End */
+
+/* Reviews Page CSS Start */
+.hotel_review_cards {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.hotels_review_cards_image_outer {
+    overflow: hidden;
+    height: 28.125rem;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.rating_text_box {
+    background: #fff;
+    padding: 2px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.hotel_review_cards span.rating_txt {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.hotels_review_cards_content h3 {
+    color: #222222;
+    font-size: 2rem;
+}
+.hotels_review_cards_content .hotels_short_txt {
+    color: #484747;
+    font-weight: 600;
+}
+/* Reviews Page CSS End */
